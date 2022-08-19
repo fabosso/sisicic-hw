@@ -12898,6 +12898,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="C3" library="rcl" deviceset="CPOL-EU" device="E2.5-5" value="10uF"/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
+<part name="GND12" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12953,6 +12954,7 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <instance part="GND9" gate="1" x="78.74" y="-25.4"/>
 <instance part="C3" gate="G$1" x="68.58" y="-17.78"/>
 <instance part="GND11" gate="1" x="68.58" y="-25.4"/>
+<instance part="GND12" gate="1" x="12.7" y="22.86"/>
 </instances>
 <busses>
 </busses>
@@ -13024,6 +13026,12 @@ Es handelt sich hierbei um AK500 in horizontaler Ausführung.&lt;p&gt;
 <segment>
 <pinref part="C3" gate="G$1" pin="-"/>
 <pinref part="GND11" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="X1" gate="G$1" pin="5"/>
+<pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="15.24" y1="27.94" x2="12.7" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="27.94" x2="12.7" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
