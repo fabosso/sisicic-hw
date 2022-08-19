@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "hub_interior")(type "KiCad")(uri "$(KIPRJMOD)/hub_interior.pretty")(options "")(descr ""))
+)
